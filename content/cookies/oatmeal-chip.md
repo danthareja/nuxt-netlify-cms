@@ -1,4 +1,6 @@
-name: Oatmeal Chip
+---
+title: Oatmeal Chip
 description: Cinnamon & fresh orange zest bring the chocolate to life in this oatmeal classic!
-image: null
+image: /images/uploads/oatmeal-raisin-cookies-3.jpg
 active: true
+---

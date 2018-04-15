@@ -32,4 +32,4 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: string}
       - {label: Image, name: image, widget: image}
-      - {label: Active, name: active, widget: boolean}
+      - {label: Active, name: active, widget: boolean, required: false, default: false}
