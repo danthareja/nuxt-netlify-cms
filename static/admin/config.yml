@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# publish_mode: editorial_workflow
+
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: content/pages/about.yml
+        label: About
+        name: about
+        fields:
+          - {label: Title, name: title, widget: string}
+      - file: content/pages/contact.yml
+        label: Contact
+        name: contact
+        fields:
+          - {label: Title, name: title, widget: string}

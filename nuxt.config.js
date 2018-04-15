@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'fatbadger-desktop',
+    title: 'Fat Badger Bakery',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -11,6 +11,12 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+        type: 'text/javascript'
+      }
     ]
   },
   /*
@@ -34,5 +40,11 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  /*
+  ** Define modules
+  */
+  modules: [
+    'nuxtent'
+  ],
 }
